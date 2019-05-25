@@ -1,0 +1,21 @@
+.Karte{
+    width: 486px;
+    display: inline-block;
+}
+
+.Bild{
+    width: 486px;
+    height: 486px;
+    object-fit: cover;
+}
+
+.Preis{
+    color: green;
+    font-size: 25px;
+}
+
+.datum { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}

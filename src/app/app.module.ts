@@ -13,6 +13,10 @@ import { HttpClientModule } from '@angular/common/http';
 import { DatePipe, registerLocaleData } from '@angular/common';
 import localeDe from '@angular/common/locales/de';
 
+
+
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+
 registerLocaleData(localeDe, 'de');
 
 @NgModule({
@@ -22,8 +26,10 @@ registerLocaleData(localeDe, 'de');
     BrowserModule,
     IonicModule.forRoot(),
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule
   ],
+
   providers: [
     StatusBar,
     SplashScreen,
